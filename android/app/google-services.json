@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161142070203",
+    "project_id": "akhbar-a26dc",
+    "storage_bucket": "akhbar-a26dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161142070203:android:e93a939fc1b2ae5bb5829e",
+        "android_client_info": {
+          "package_name": "com.example.akhbari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161142070203-df65qknsom8jbgiadvsfnjf799ed89tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnN8gLnBWnXkpCDaqiS3R4p9-Rh6jo1mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161142070203-df65qknsom8jbgiadvsfnjf799ed89tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
