@@ -1,16 +1,49 @@
-# akhbari
+# 📰 News Summarizer & Categorizer App
 
-A new Flutter project.
+## Overview
+A Flutter-based **News Application** with a Flask backend that delivers **summarized**, **cleaned**, **clustered**, and **categorized** news articles using advanced **NLP** and **Machine Learning** techniques.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- 📰 Live News Feed
+- ✂️ Automatic News Summarization
+- 🧹 Text Data Cleaning
+- 🧠 Clustering News using TF-IDF + K-Means
+- 🧩 Duplicate News Detection using Cosine Similarity
+- 🏷️ News Categorization into topics using SVM Classifier
+- 🚀 Fast and Minimalistic Flutter UI
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
+- **Frontend**: Flutter
+- **Backend**: Flask (Python)
+- **Tunneling**: ngrok
+- **ML/NLP**:
+  - Data Cleaning
+  - Summarization
+  - TF-IDF Vectorization
+  - K-Means Clustering
+  - Cosine Similarity
+  - SVM Classification
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Architecture
+
+
+```plaintext
+Flutter App
+    ↓
+Ngrok Tunnel
+    ↓
+Flask Backend
+    ↓
+NLP/ML Pipeline
+        - Data Cleaning
+        - Summarization
+        - TF-IDF Vectorization
+        - K-Means Clustering
+        - Duplicate Detection (Cosine Similarity)
+        - News Categorization (SVM)
